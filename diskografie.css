@@ -1,0 +1,50 @@
+html {
+	font-family: Helvetica;
+	background-color: rgb(0,0,0);
+	color:#fafafa;
+	line-height: 1.5;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.album {
+	float: left;
+	margin: 30px;
+}
+
+.album img {
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	border: 2px solid #fff;
+}
+
+h1 {
+	font-size: 60px;
+	/* font-family: Bodoni; */
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: currentColor;
+}
+
+.album h2 {
+	text-align: center;
+}
+
+ol {
+    /* text-indent: 5px; */
+    /* border: 0.5px solid; */
+    border-color:rgb(167, 176, 169);
+}
+a { color: currentColor; }
+.back {
+	display: block;
+	text-align:right;
+	color: #fafafa;
+}
+li {
+	line-height: 25px;
+}
